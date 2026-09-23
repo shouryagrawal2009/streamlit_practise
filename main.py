@@ -8,4 +8,4 @@ a= st.slider("Acceleration (m/s2)", -10, 10, 2)
 
 t= np.linspace(0, 10, 200)
 fig= go.Figure(go.Scatter(x=t, y= u+ a*t))
-st.plotly_chart(fig,m use_container_width=True)
+st.plotly_chart(fig, use_container_width=True)
